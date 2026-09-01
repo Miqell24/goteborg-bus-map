@@ -237,10 +237,31 @@ async function init() {
   const lineColor = (l) => LINE_COLORS[l] || CORRIDOR_INK;
   const LINE_COLOR_MATCH = ['match', ['get', 'line'],
     ...Object.entries(LINE_COLORS).flatMap(([l, c]) => [l, c]), CORRIDOR_INK];
+  // Eleven municipalities share this frame and four of them number their own
+  // network from 1, so the cloud is grouped by the one that runs each line —
+  // otherwise it reads "… 930 FLYG 1 2 3 1 1 2 3 21 …" with nothing to say
+  // which "1" is which. Göteborg's own network first, then the rest as the
+  // gazetteer lists them. (The Rybnik and Randstad panel, ported.)
+  const OPS = ['', 'MO', 'PA', 'HA', 'LV', 'KB', 'KV', 'AL', 'LE', 'ST', 'OC'];
   const paintChips = (linesView) => {
-    document.getElementById('chips').innerHTML = meta.lines
-      .map((l) => chipHtml(l, linesView ? lineColor(l.line) : l.color, l.line === state.selected && l.mode === state.selMode))
-      .join(' ');
+    const active = (l) => l.line === state.selected && l.mode === state.selMode;
+    const bucket = new Map();
+    for (const l of meta.lines) {
+      const k = l.op ?? '';
+      if (!bucket.has(k)) bucket.set(k, []);
+      bucket.get(k).push(l);
+    }
+    const section = (key) => {
+      const ls = bucket.get(key);
+      if (!ls || !ls.length) return '';
+      bucket.delete(key);
+      const title = ls[0].opName || key || 'Göteborg';
+      return `<h3 class="chip-head">${esc(title)} <span class="n">${ls.length}</span></h3>` +
+        `<div class="chip-cloud">${ls.map((l) => chipHtml(l, linesView ? lineColor(l.line) : l.color, active(l))).join(' ')}</div>`;
+    };
+    let html = OPS.map(section).join('');
+    for (const k of [...bucket.keys()]) html += section(k);
+    document.getElementById('chips').innerHTML = html;
   };
 
   // Panel state. `view` is the big one: 'corridors' is this map as it has always

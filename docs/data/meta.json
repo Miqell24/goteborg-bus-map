@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T12:51:01.402Z",
+  "generatedAt": "2026-09-01T15:20:43.663Z",
   "bbox": [
     11.58863,
     57.480095,
@@ -44,6 +44,8 @@
     {
       "line": "1E",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -93,6 +95,8 @@
     {
       "line": "3E",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -142,6 +146,8 @@
     {
       "line": "4",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -191,6 +197,8 @@
     {
       "line": "4E",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -240,6 +248,8 @@
     {
       "line": "5",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -268,6 +278,8 @@
     {
       "line": "6E",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -317,6 +329,8 @@
     {
       "line": "11E",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -366,6 +380,8 @@
     {
       "line": "17",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -415,6 +431,8 @@
     {
       "line": "18",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -464,6 +482,8 @@
     {
       "line": "19",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -513,6 +533,8 @@
     {
       "line": "20",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -562,6 +584,8 @@
     {
       "line": "21",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -611,6 +635,8 @@
     {
       "line": "22",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -660,6 +686,8 @@
     {
       "line": "25",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -709,6 +737,8 @@
     {
       "line": "27",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -758,6 +788,8 @@
     {
       "line": "29",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -807,6 +839,8 @@
     {
       "line": "30",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -856,6 +890,8 @@
     {
       "line": "32",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -905,6 +941,8 @@
     {
       "line": "33",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -954,6 +992,8 @@
     {
       "line": "34",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1003,6 +1043,8 @@
     {
       "line": "35",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1052,6 +1094,8 @@
     {
       "line": "36",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1101,6 +1145,8 @@
     {
       "line": "37",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1150,6 +1196,8 @@
     {
       "line": "38",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1199,6 +1247,8 @@
     {
       "line": "40",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1248,6 +1298,8 @@
     {
       "line": "42",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1297,6 +1349,8 @@
     {
       "line": "43",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1346,6 +1400,8 @@
     {
       "line": "44",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1395,6 +1451,8 @@
     {
       "line": "46",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1444,6 +1502,8 @@
     {
       "line": "47",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1493,6 +1553,8 @@
     {
       "line": "56",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1542,6 +1604,8 @@
     {
       "line": "57",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1570,6 +1634,8 @@
     {
       "line": "59",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1619,6 +1685,8 @@
     {
       "line": "60",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1668,6 +1736,8 @@
     {
       "line": "61",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1717,6 +1787,8 @@
     {
       "line": "62",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1766,6 +1838,8 @@
     {
       "line": "63",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1815,6 +1889,8 @@
     {
       "line": "64",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1864,6 +1940,8 @@
     {
       "line": "65",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1913,6 +1991,8 @@
     {
       "line": "69",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -1962,6 +2042,8 @@
     {
       "line": "71",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2011,6 +2093,8 @@
     {
       "line": "73",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2060,6 +2144,8 @@
     {
       "line": "74",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2109,6 +2195,8 @@
     {
       "line": "75",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2158,6 +2246,8 @@
     {
       "line": "76",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2186,6 +2276,8 @@
     {
       "line": "77",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2235,6 +2327,8 @@
     {
       "line": "78",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2284,6 +2378,8 @@
     {
       "line": "82",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2333,6 +2429,8 @@
     {
       "line": "83",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2382,6 +2480,8 @@
     {
       "line": "84",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2431,6 +2531,8 @@
     {
       "line": "86",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2480,6 +2582,8 @@
     {
       "line": "89",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2529,6 +2633,8 @@
     {
       "line": "90",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2578,6 +2684,8 @@
     {
       "line": "91",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2627,6 +2735,8 @@
     {
       "line": "92",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2676,6 +2786,8 @@
     {
       "line": "93",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2725,6 +2837,8 @@
     {
       "line": "94",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2774,6 +2888,8 @@
     {
       "line": "95",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2823,6 +2939,8 @@
     {
       "line": "97",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2872,6 +2990,8 @@
     {
       "line": "99",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2921,6 +3041,8 @@
     {
       "line": "101",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -2970,6 +3092,8 @@
     {
       "line": "114",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3019,6 +3143,8 @@
     {
       "line": "127",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3068,6 +3194,8 @@
     {
       "line": "128",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3117,6 +3245,8 @@
     {
       "line": "129",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3166,6 +3296,8 @@
     {
       "line": "131",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3215,6 +3347,8 @@
     {
       "line": "135",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3264,6 +3398,8 @@
     {
       "line": "137",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3313,6 +3449,8 @@
     {
       "line": "139",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3362,6 +3500,8 @@
     {
       "line": "141",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3411,6 +3551,8 @@
     {
       "line": "142",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3460,6 +3602,8 @@
     {
       "line": "145",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3509,6 +3653,8 @@
     {
       "line": "148",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3558,6 +3704,8 @@
     {
       "line": "159",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3607,6 +3755,8 @@
     {
       "line": "167",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3656,6 +3806,8 @@
     {
       "line": "168",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3684,6 +3836,8 @@
     {
       "line": "173",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3712,6 +3866,8 @@
     {
       "line": "178",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3761,6 +3917,8 @@
     {
       "line": "179",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3810,6 +3968,8 @@
     {
       "line": "180",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3859,6 +4019,8 @@
     {
       "line": "184",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3908,6 +4070,8 @@
     {
       "line": "185",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -3957,6 +4121,8 @@
     {
       "line": "190",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4006,6 +4172,8 @@
     {
       "line": "193",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4034,6 +4202,8 @@
     {
       "line": "194",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4062,6 +4232,8 @@
     {
       "line": "196",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4090,6 +4262,8 @@
     {
       "line": "197",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4118,6 +4292,8 @@
     {
       "line": "199",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4167,6 +4343,8 @@
     {
       "line": "258",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4216,6 +4394,8 @@
     {
       "line": "290",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4265,6 +4445,8 @@
     {
       "line": "291",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4293,6 +4475,8 @@
     {
       "line": "302",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4342,6 +4526,8 @@
     {
       "line": "303",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4391,6 +4577,8 @@
     {
       "line": "305",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4440,6 +4628,8 @@
     {
       "line": "307",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4489,6 +4679,8 @@
     {
       "line": "308",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4538,6 +4730,8 @@
     {
       "line": "309",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4587,6 +4781,8 @@
     {
       "line": "313",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4615,6 +4811,8 @@
     {
       "line": "319",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4664,6 +4862,8 @@
     {
       "line": "401",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4713,6 +4913,8 @@
     {
       "line": "402",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4762,6 +4964,8 @@
     {
       "line": "403",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4790,6 +4994,8 @@
     {
       "line": "404",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4818,6 +5024,8 @@
     {
       "line": "413",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4867,6 +5075,8 @@
     {
       "line": "415",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4916,6 +5126,8 @@
     {
       "line": "501",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -4965,6 +5177,8 @@
     {
       "line": "502",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5014,6 +5228,8 @@
     {
       "line": "503",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5063,6 +5279,8 @@
     {
       "line": "510",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5112,6 +5330,8 @@
     {
       "line": "511",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5161,6 +5381,8 @@
     {
       "line": "512",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5210,6 +5432,8 @@
     {
       "line": "513",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5259,6 +5483,8 @@
     {
       "line": "514",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5308,6 +5534,8 @@
     {
       "line": "515",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5357,6 +5585,8 @@
     {
       "line": "516",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5406,6 +5636,8 @@
     {
       "line": "517",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5455,6 +5687,8 @@
     {
       "line": "518",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5504,6 +5738,8 @@
     {
       "line": "519",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5553,6 +5789,8 @@
     {
       "line": "529",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5581,6 +5819,8 @@
     {
       "line": "530",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5630,6 +5870,8 @@
     {
       "line": "531",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5679,6 +5921,8 @@
     {
       "line": "534",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5707,6 +5951,8 @@
     {
       "line": "535",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5756,6 +6002,8 @@
     {
       "line": "536",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5805,6 +6053,8 @@
     {
       "line": "537",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5854,6 +6104,8 @@
     {
       "line": "538",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5903,6 +6155,8 @@
     {
       "line": "539",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -5952,6 +6206,8 @@
     {
       "line": "601",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6001,6 +6257,8 @@
     {
       "line": "611",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6050,6 +6308,8 @@
     {
       "line": "612",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6099,6 +6359,8 @@
     {
       "line": "620",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6148,6 +6410,8 @@
     {
       "line": "717",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6197,6 +6461,8 @@
     {
       "line": "720",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6246,6 +6512,8 @@
     {
       "line": "735",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6295,6 +6563,8 @@
     {
       "line": "751",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6344,6 +6614,8 @@
     {
       "line": "753",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6393,6 +6665,8 @@
     {
       "line": "754",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6442,6 +6716,8 @@
     {
       "line": "755",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6491,6 +6767,8 @@
     {
       "line": "757",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6540,6 +6818,8 @@
     {
       "line": "758",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6589,6 +6869,8 @@
     {
       "line": "759",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6638,6 +6920,8 @@
     {
       "line": "760",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6687,6 +6971,8 @@
     {
       "line": "761",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6736,6 +7022,8 @@
     {
       "line": "762",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6785,6 +7073,8 @@
     {
       "line": "763",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6834,6 +7124,8 @@
     {
       "line": "764",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6883,6 +7175,8 @@
     {
       "line": "765",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6932,6 +7226,8 @@
     {
       "line": "766",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -6981,6 +7277,8 @@
     {
       "line": "903",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7009,6 +7307,8 @@
     {
       "line": "910",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7037,6 +7337,8 @@
     {
       "line": "911",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7086,6 +7388,8 @@
     {
       "line": "912",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7135,6 +7439,8 @@
     {
       "line": "913",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7163,6 +7469,8 @@
     {
       "line": "914",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7212,6 +7520,8 @@
     {
       "line": "915",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7240,6 +7550,8 @@
     {
       "line": "917",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7289,6 +7601,8 @@
     {
       "line": "918",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7338,6 +7652,8 @@
     {
       "line": "920",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7387,6 +7703,8 @@
     {
       "line": "921",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7436,6 +7754,8 @@
     {
       "line": "922",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7464,6 +7784,8 @@
     {
       "line": "923",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7513,6 +7835,8 @@
     {
       "line": "924",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7562,6 +7886,8 @@
     {
       "line": "925",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7611,6 +7937,8 @@
     {
       "line": "926",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7660,6 +7988,8 @@
     {
       "line": "927",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7709,6 +8039,8 @@
     {
       "line": "928",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7758,6 +8090,8 @@
     {
       "line": "930",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7807,6 +8141,8 @@
     {
       "line": "FLYG",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7856,6 +8192,8 @@
     {
       "line": "HA1",
       "mode": "bus",
+      "op": "HA",
+      "opName": "Härryda (Mölnlycke)",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7906,6 +8244,8 @@
     {
       "line": "HA2",
       "mode": "bus",
+      "op": "HA",
+      "opName": "Härryda (Mölnlycke)",
       "color": "#0059a9",
       "dirs": [
         {
@@ -7956,6 +8296,8 @@
     {
       "line": "HA3",
       "mode": "bus",
+      "op": "HA",
+      "opName": "Härryda (Mölnlycke)",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8006,6 +8348,8 @@
     {
       "line": "KB1",
       "mode": "bus",
+      "op": "KB",
+      "opName": "Kungsbacka",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8056,6 +8400,8 @@
     {
       "line": "KV1",
       "mode": "bus",
+      "op": "KV",
+      "opName": "Kungälv",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8106,6 +8452,8 @@
     {
       "line": "KV2",
       "mode": "bus",
+      "op": "KV",
+      "opName": "Kungälv",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8156,6 +8504,8 @@
     {
       "line": "KV3",
       "mode": "bus",
+      "op": "KV",
+      "opName": "Kungälv",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8185,6 +8535,8 @@
     {
       "line": "KV21",
       "mode": "bus",
+      "op": "KV",
+      "opName": "Kungälv",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8235,6 +8587,8 @@
     {
       "line": "LE526",
       "mode": "bus",
+      "op": "LE",
+      "opName": "Lerum",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8285,6 +8639,8 @@
     {
       "line": "LE527",
       "mode": "bus",
+      "op": "LE",
+      "opName": "Lerum",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8335,6 +8691,8 @@
     {
       "line": "LERS",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8384,6 +8742,8 @@
     {
       "line": "OC1",
       "mode": "bus",
+      "op": "OC",
+      "opName": "Öckerö",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8434,6 +8794,8 @@
     {
       "line": "OC2",
       "mode": "bus",
+      "op": "OC",
+      "opName": "Öckerö",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8463,6 +8825,8 @@
     {
       "line": "OC3",
       "mode": "bus",
+      "op": "OC",
+      "opName": "Öckerö",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8513,6 +8877,8 @@
     {
       "line": "X1",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8562,6 +8928,8 @@
     {
       "line": "X2",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8611,6 +8979,8 @@
     {
       "line": "X3",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8660,6 +9030,8 @@
     {
       "line": "X4",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8709,6 +9081,8 @@
     {
       "line": "X5",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8758,6 +9132,8 @@
     {
       "line": "X6",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8807,6 +9183,8 @@
     {
       "line": "X40",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8856,6 +9234,8 @@
     {
       "line": "X76",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8905,6 +9285,8 @@
     {
       "line": "X77",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -8954,6 +9336,8 @@
     {
       "line": "X90",
       "mode": "bus",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#0059a9",
       "dirs": [
         {
@@ -9003,6 +9387,8 @@
     {
       "line": "1",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9052,6 +9438,8 @@
     {
       "line": "2",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9101,6 +9489,8 @@
     {
       "line": "3",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9150,6 +9540,8 @@
     {
       "line": "4",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9199,6 +9591,8 @@
     {
       "line": "5",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9248,6 +9642,8 @@
     {
       "line": "6",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9297,6 +9693,8 @@
     {
       "line": "7",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9346,6 +9744,8 @@
     {
       "line": "8",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9395,6 +9795,8 @@
     {
       "line": "9",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9444,6 +9846,8 @@
     {
       "line": "10",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9493,6 +9897,8 @@
     {
       "line": "11",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9542,6 +9948,8 @@
     {
       "line": "12",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9591,6 +9999,8 @@
     {
       "line": "13",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9640,6 +10050,8 @@
     {
       "line": "X",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {
@@ -9689,6 +10101,8 @@
     {
       "line": "X#2",
       "mode": "tram",
+      "op": "",
+      "opName": "Göteborg",
       "color": "#d6212b",
       "dirs": [
         {

@@ -147,10 +147,24 @@ const BUS_KEY = SCOPE.busKey || {};
 // no trunk mode here — Göteborg has no metro and no numbered commuter rail
 const isRailTrunk = () => false;
 
+// Which municipality's network a line belongs to. The key already carries the
+// answer as its prefix (scope.mjs writes it from the TOWNS gazetteer); this
+// turns the code into the name the panel prints as a heading. Without it the
+// chip cloud runs "… 930 FLYG 1 2 3 1 1 2 3 21 …" — four different town
+// networks each numbering from 1, all printing bare, with nothing between them.
+const TOWN_NAME = new Map([
+  ['', 'Göteborg'], ['MO', 'Mölndal'], ['PA', 'Partille'], ['HA', 'Härryda (Mölnlycke)'],
+  ['LV', 'Landvetter'], ['KB', 'Kungsbacka'], ['KV', 'Kungälv'], ['AL', 'Ale (Nödinge)'],
+  ['LE', 'Lerum'], ['ST', 'Stenungsund'], ['OC', 'Öckerö'],
+]);
+// line key → town code, so meta can group the panel by municipality
+const LINE_OP = new Map();
+
 const busKey = (sn, r) => {
   const k = BUS_KEY[r.route_id] || sn;
   if (!k) return null;
   if (k !== sn) LBL.set(k, sn);   // the town prefix never reaches the street
+  LINE_OP.set(k, k === sn ? '' : k.slice(0, k.length - sn.length));
   return k;
 };
 // Västtrafik brands every works-period tram "X", and in this timetable two of
@@ -165,9 +179,10 @@ const tramKey = (sn) => {
   if (!sn) return null;
   const n = (tramSeen.get(sn) || 0) + 1;
   tramSeen.set(sn, n);
-  if (n === 1) return sn;
+  if (n === 1) { LINE_OP.set(sn, ''); return sn; }   // the tram is Göteborg's alone
   const k = sn + '#' + n;
   LBL.set(k, sn);
+  LINE_OP.set(k, '');
   return k;
 };
 
@@ -571,8 +586,32 @@ async function processMode(cfg) {
       const s0 = stopsById.get(r.stopSeq[0].stopId);
       const s1 = stopsById.get(r.stopSeq[r.stopSeq.length - 1].stopId);
       if (!s0 || !s1) continue;
+      // A CIRCULAR line ends where it began, so near(lastStop) lands on the
+      // shape point beside the FIRST one and the slice below throws the whole
+      // run away — Novi Sad's 11B, 23 poles and 91 trips a day, came out 50 m
+      // long. Where the terminal poles are the same place there is no tail to
+      // trim, so there is nothing to do.
+      const loopM = Math.hypot((s0.lat - s1.lat) * 111320,
+        (s0.lon - s1.lon) * 111320 * Math.cos(s0.lat * Math.PI / 180));
+      if (loopM < 300) continue;
       const i0 = near(s0), i1 = near(s1);
       if (i1 - i0 >= 2 && (i0 > 0 || i1 < r.shapeLatLon.length - 1)) {
+        // and a second guard for the near-loops the first one misses: a depot
+        // overshoot is a small overhang at an end, never the body of the line,
+        // so a trim that would drop more than a third of the run is refused.
+        const segLen = (a, b) => {
+          let m = 0;
+          for (let i = a + 1; i <= b; i++) {
+            m += Math.hypot((r.shapeLatLon[i][0] - r.shapeLatLon[i - 1][0]) * 111320,
+              (r.shapeLatLon[i][1] - r.shapeLatLon[i - 1][1]) * 111320 * Math.cos(r.shapeLatLon[i][0] * Math.PI / 180));
+          }
+          return m;
+        };
+        const full = segLen(0, r.shapeLatLon.length - 1);
+        if (full > 0 && segLen(i0, i1) < full * 0.66) {
+          log(`  shape trim ${r.line}/${r.dir}: REFUSED — ${i0}..${i1} would keep only ${Math.round(100 * segLen(i0, i1) / full)}% of the run`);
+          continue;
+        }
         if (i0 > 5 || i1 < r.shapeLatLon.length - 6) log(`  shape trim ${r.line}/${r.dir}: kept ${i0}..${i1} of ${r.shapeLatLon.length} points (depot tails dropped)`);
         r.shapeLatLon = r.shapeLatLon.slice(i0, i1 + 1);
       }
@@ -1159,6 +1198,9 @@ async function processMode(cfg) {
   const metaLines = [...new Set(reps.map((r) => r.line))].sort(numSort).map((L) => ({
     line: L,
     mode: cfg.mode,
+    // which municipality runs it — the panel groups its chip cloud by this
+    op: LINE_OP.get(L) ?? '',
+    opName: TOWN_NAME.get(LINE_OP.get(L) ?? '') || (LINE_OP.get(L) ?? ''),
     color: colorOf([L]),
     dirs: reps.filter((r) => r.line === L).map((r) => ({
       dir: r.dir, headsign: r.headsign, variants: r.variants, tripCount: r.tripCount,
